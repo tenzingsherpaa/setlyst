@@ -54,6 +54,10 @@ single student can hold different roles at different events.
 - **Student / Event Attendee** — Isaac Longo
 - **DJ** — Rohan Pahwa
 
+All three test users have agreed to work with us. We have not held any
+meetings with them yet. We will communicate primarily by text, with
+occasional in-person or Zoom meetings on a weekly basis.
+
 ## Domain Model
 
 ### Users and Organizations
@@ -123,6 +127,7 @@ single student can hold different roles at different events.
 
 ## Tech Stack
 
+- **Platform:** mobile-friendly web application
 - **Frontend:** React
 - **Backend:** Python with Flask
 - **Database:** PostgreSQL
@@ -195,6 +200,14 @@ single student can hold different roles at different events.
 - **Fraud** — users posing as club officers and posting false events.
 - **Privacy** — users may want to contribute to an event playlist but not
   want to appear as an event attendee.
+
+## Outside Dependencies
+
+These are outside our control and could affect the project:
+
+- **Spotify** — song search, DJ account connection, and playlist export all
+  depend on the Spotify API and its access rules for developer apps.
+- **Login** — login depends on Princeton CAS.
 
 ## Open Questions
 
